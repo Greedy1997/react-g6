@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "paths": {
+      "@/*": ["./src/*"],
+      "store/*": ["src/store/*"]
+    },
+    "outDir": "./dist/",
+    "sourceMap": true,
+    "module": "ESNext",
+    "target": "ESNext",
+    "jsx": "react",
+    "allowJs": true,
+    "esModuleInterop": true,
+    "noUnusedLocals": true,
+    "removeComments": true,
+    "moduleResolution": "Node",
+    "experimentalDecorators": true,
+    "typeRoots": ["node_modules/@types"]
+  },
+  "exclude": ["node_modules"],
+  "include": ["./src/", "./lib.d.ts"]
+}
